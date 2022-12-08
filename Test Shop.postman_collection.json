@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "90a9b192-5db6-4cf9-8330-bb5eb57f7db1",
+		"name": "Test Shop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "top-product",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Berear eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3Njb2xhcml0ZS5iYWNrY3Jlc3VzLWluc3RpdHV0Lm92aC9hcGkvbG9naW4iLCJpYXQiOjE2NjU0MDg3NDYsImV4cCI6MTY2NTQ5NTE0NiwibmJmIjoxNjY1NDA4NzQ2LCJqdGkiOiJDQmc0dlMzTlV3NmFpak81Iiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.yL2CPQUkzoSxN2V2mwWNWlB2qbXj_NqQr6VT9wtzaZ",
+						"type": "text"
+					},
+					{
+						"key": "apipassword",
+						"value": "3KbmGc5tZhuDbPtb",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:4000/influencers/sum-sales",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"influencers",
+						"sum-sales"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sum-sales",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "sum-products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "sales-number",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "influencer-number",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "influencer-commission",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/influencers/influencer-commission",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"influencers",
+						"influencer-commission"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
